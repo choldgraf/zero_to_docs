@@ -1,0 +1,17 @@
+language:
+  - python
+python:
+    - 3.6
+install:
+  - pip install markdown
+script:
+  - set -e
+  - mkdir build
+  - mkdir build/html
+  - markdown_py guide/doctr.md > build/html/index.html
+  - pip install doctr
+  - doctr deploy
+
+env:
+  global:
+    - secure: "rCA/1nkkhaGAhicPXGzokoKxODEWBC6GVTOQxkhZKBPXVy33va2MoBr0U7ZcZ8v0bTRMitTRO5tfRv+liS5TC6auynPEnArGtZAmjm5PMn6kMD02Wtz9We63zTWha5i+viCSIa2UUaE/K9comAK6ZbVY98C3yAPeB3/2+cI4r0nApVxXM5qcdcuclV7gHeYmOxHItnFMz/yftIfbv79BOh32OHUFBU7oDuPM6CE7rWnz3Ol5fgdPQW52M803S8r5DtA53Cw1E8GnD3RLSyLPdz7BnEKHzapPEfmOD9Ey19zQljVLYJ2Kot5Cg8CTPj8cfhy0CaYQSJLuNc2v8vyg2W1/x+eZ4AlfwhiOiYNPowpqfvHt18HJ5aTCWlUIjhkRY96qAf82uC16OzWIY87aLcJmPi9jYKpv+JKXaIqOKsUj4jFpscffcnXdKBShWOxLpTpaNsiBSijpoiUdlLCgBbqAwr0YtyCH/F61TNzC6OlHeO7kiJ+fI98XpEX91DerpLPsm5pjGSmrovg8PFJGP+FVnouxBwhW51Whuwc49Jyr8hnHHz25x7No12Y/+UUiVCh1XDYelwVzgCwWdTH6ZMOfjkirdT2K19Hhusw6fyhxY9O8ej2Lw/uLQbmU7IW3ONbOUEwQHRJUSfyevM9aoI4HwdsKlDbvB5s0vswzDg0="
