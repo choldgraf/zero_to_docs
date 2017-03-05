@@ -13,3 +13,12 @@ examples/
   Visual examples that illustrate the use of `my_package`.  These examples
   will be turned into a gallery.
 
+Of particular interest may be the `docs/source/conf.py` file, which is used to
+configure Sphinx.
+
+The documentation may be built by doing:
+
+```
+cd docs
+make html
+```
