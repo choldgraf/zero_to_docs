@@ -5,7 +5,7 @@ Materials to help you go from zero to full documentation as quickly as possible.
 This repository contains the following directories:
 
 docs/
-  The source of the documentation, and where the Sphinx output is generated.
+  The Sphinx source of the documentation.
 my_package/
   An example Python package.  We'll grab docstrings from this package and
   generate documentation for it.
