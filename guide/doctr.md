@@ -89,3 +89,4 @@ The rest is just output:
 Follow above instruction, commit and push,  the docs should be deployed as
 `https://<username>.github.io/<project_name>/docs/`
 
+A working example can be found in git history if it can be of help.
