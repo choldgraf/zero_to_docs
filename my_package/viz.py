@@ -10,5 +10,5 @@ def plot_random_dots(N, scale=10, ax=None, cmap=None):
         cmap = plt.cm.viridis
     dots = np.random.randn(2, N)
     size = dots * scale
-    ax.plot(*dots, s=size, cmap=cmap)
+    ax.scatter(*dots, s=size, cmap=cmap)
     return ax
