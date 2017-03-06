@@ -7,7 +7,7 @@ A repository for guiding you in setting up your own documentation. You can follo
 
 Right now, the repository begins with a set of skeleton materials. These guides cover the following topics:
 
-* Setting up sphinx documentation from scratch
+* [Setting up sphinx documentation from scratch](getting_started_with_sphinx.ipynb)
 * Formatting python scripts using numpydoc
 * Building a gallery of images using sphinx-gallery
-* Auto-deploying documentation to gh-pages using travis
+* [Auto-deploying documentation to gh-pages using travis](doctr.md)
