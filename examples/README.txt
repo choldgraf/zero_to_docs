@@ -1,1 +1,0 @@
-This directory contains some examples to show off the functionality of the package.
