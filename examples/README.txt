@@ -1,4 +1,1 @@
-Docathon, the best "athon"!
-===========================
-
-This is a docathon!
+This directory contains some examples to show off the functionality of the package.
