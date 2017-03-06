@@ -1,5 +1,7 @@
 # Deploying documentation on GhPages
+This is a quick guide to auto-deploying documentation on gh-pages using Travis. You can find a sister repository with a template that can be used to build your own documentation here:
 
+* https://github.com/choldgraf/sphinx_template
 
 ## Installing doctr locally
 
